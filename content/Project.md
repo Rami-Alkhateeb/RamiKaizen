@@ -1,4 +1,4 @@
-# Definition
+# Project
 
 The project is the main focal point for all Business Lines
 
@@ -178,5 +178,6 @@ Behavior of this tab is defined at Listing Budgets process definition.
 
 #### Ledgers Tab
 Each project has two ledgers created automatically while it's creation as mentioned above in this documentation section.  
-Behavior of this tab is defined at [Ledger](https://projects.ronasit.com/Mo_Mirza/Master_Plan_OA/mpoa_angularjs/wikis/content/Ledger) section of this documentation.
+Behavior of this tab is defined at Ledger section of this documentation.
+- [ ] @alidikici add link to Ledger
 
