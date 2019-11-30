@@ -1,4 +1,9 @@
-# Table of Contents
+# MasterPlan
+
+Project is designed to provide home for all the automation that is required by the Kaizen Asset Management Services (KAMS).
+
+Please use sidebard to browse through this documentation.
+<!-- # Table of Contents
 
 [Scenarios](Scenarios)  
 [Scheduled Tasks](Scheduled Tasks)  
@@ -52,3 +57,4 @@
 [Settings](./content/Settings.md)  
 [Integrations](./content/Integrations.md)  
 
+ -->
