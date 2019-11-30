@@ -13,11 +13,12 @@ budget_project|Int|FK|Project|Assigned project of the budget|Auto assignment
 name|Text|-|-|Name of the Version of the budget|Auto assignment
 start|Date|-|-|Start date of the budget|Date Picker
 end|Date|-|-|End date of the budget|Date Picker
-budget_previous|Int|FK|Budget|Previous budget to base budget|Searchable Dropdown
-budget_status|Text|FK|Budget Status|-|Dropdown
-budget_type|Text|FK|Budget Type|-|Dropdown
+previous|Int|FK|Budget|Previous budget to base budget|Searchable Dropdown
+status|Text|FK|Budget Status|-|Dropdown
+type|Text|FK|Budget Type|-|Dropdown
 grace|Int|-|-|Grace period in number of days|User entry
 overdue_percentage|Float|-|-|Overdue charge percentage|User entry
+lineitems|JSON Array|-|-|Stores the line items entered by the users|User entry
 mollak_id|Text|-|-|-|User entry
 
 # Processes
