@@ -1,8 +1,8 @@
-__TOC__
-
-{:toc}
-
 # Table of Contents
+
+[Scenarios](Scenarios)  
+[Scheduled Tasks](Scheduled Tasks)  
+[Communication Templates](Communication Templates)  
 
 [Purpose of Documentation](content/Purpose.md)  
 [ER Diagram](./content/ERDiagram.md)  
@@ -52,8 +52,3 @@ __TOC__
 [Settings](./content/Settings.md)  
 [Integrations](./content/Integrations.md)  
 
-
-
-[Scenarios](Scenarios)  
-[Scheduled Tasks](Scheduled Tasks)  
-[Communication Templates](Communication Templates)  
