@@ -1,7 +1,6 @@
-# Contact Reference
+# Definition
 
 Contact Reference entity defines the relationships between a Contact and other entities. Since a contact can be referred by multiple other entities, and an entity can have multiple contacts with varying types, the Contact Reference pseudo entity is defined in the system to handle these many to many relationships.
-
 
 # Properties
 
@@ -14,7 +13,6 @@ contact_reference_contact|Int|FK|Contact|Dropdown|User entry
 contact_reference_function|Int|FK|Contact Function|Dropdown|Read-only
 contact_reference_reference|Int|FK|Reference|Dropdown|Read-only
 referrer|Int|FK|Many|Check below description|Read-only
-
 
 # References
 

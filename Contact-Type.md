@@ -1,4 +1,4 @@
-# Definitions
+# Definition
 
 Contact Type is a pseudo entity related to the entity “Contact” in the system that is referred to as the type of the document.
 

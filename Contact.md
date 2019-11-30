@@ -2,7 +2,7 @@
 
 Contact entity is used to capture all the individuals and companies those we interact in real life or use the system directly.
 
-## Contact Properties
+# Properties
 
 Contact entity corresponds to “contact” table in the database which has the following fields:
 
@@ -78,9 +78,9 @@ Addresses JSON Definition:
 ]
 ```
 
-## Contact Processes
+# Processes
 
-### Listing Contacts
+## List
 
 ![image](uploads/3b9e6c94a51ae14d194609ebe20dc2c1/image.png)
 
@@ -97,7 +97,7 @@ Search field allows searching amongst name column of the table.
 
 New Contact button placed on the top right corner of the listing UI opens a modal UI to define a new contact described in the “Creating Contact” section of this document.
 
-### Create/View/Edit Contact
+## View/Edit
 
 To create a new contact in the system, in the Listing Contacts UI, "New Contact" button should be clicked and the type of the contact should be chosen as can be seen at the below screenshot:
 
@@ -141,11 +141,11 @@ When a contact has type of “Vendor Company” system will enable the service a
 
 Creation of a contact also creates a “Ledger” in the system database. So the database should be inserting one tuple into the “contact” table and retrieving the inserted id, and insert another tuple to the “ledger” table with the “contact” field assigned as the contacts id.
 
-### Delete Contact
+## Delete
 
 On the contact details screen which is described in the “Creating Contact” section of this document, top-right part of the UI provides a delete contact button. Click action to this button should trigger a confirmation and upon confirmation, the contact and it's ledger should be deleted from the system database. Once the deletion process is complete, the screen should return to the previous state, in which, the modal screen is opened to view the details of the contact.
 
-### Assigning Contact
+## Assign
 
 Throughout this document the contact assignment process is mentioned. Whenever a contact assignment to another entity is required a modal screen should open and a UI similar to below should be introduced to the user.
 
@@ -162,10 +162,10 @@ If the user selects a function and clicks to Assign button on the respective row
 * reference: This defines the reference point of the contact. If the contact assignment UI is called from a Unit, this should be the Unit from the “Reference” table, etc.
 * referrer: id field of the referring table’s tuple.
 
-### Contact Service Category Assignment
+## Service Category Assignment
 
 When a contact has the vendor company type assigned, the system should provide a searchable dropdown with the defined service categories to be assigned.
 
-### Create User for Contact
+## Create User for Contact
 
 Contact edit screen should provide a button to create a user for the contact with the primary email address as the username and send an email notification to create a password and SMS/WhatsApp message for installing the phone application.

@@ -1,4 +1,4 @@
-# Ledger
+# Definition
 
 A ledger is the principal book for recording and totaling economic transactions measured in terms of a monetary unit of account by account type, with debits and credits in separate columns and a beginning monetary balance and ending monetary balance for each account and period.
 

@@ -1,4 +1,4 @@
-# Contact Function
+# Definition
 
 Contact Function is a pseudo entity related to the entity “Contact Reference” in the system that is referred to as the type of the reference.
 
