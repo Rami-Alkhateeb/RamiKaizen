@@ -16,7 +16,7 @@ amount|Float|-|-|Budgeted amount for the budget item|User entry
 details|JSON|-|-|-|Auto generated
 version|Int|FK|Budget Version|Assigned version of the budget item|Auto assigned
 
-#Budget Item Details Field Definition
+# Budget Item Details Field Definition
 
 The field “details” in the budget item tuple represents the values and enabled flag of the budget item for the cost center allocation of the budgeted amount.
 Please refer to “Editing / Viewing Budgets” section of this document for the visual representation of a budget item on the design. The structure of the details field is as below:
