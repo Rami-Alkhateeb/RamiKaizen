@@ -1,1 +1,3 @@
-[Home](Home)
+* [Home](home)
+  * Main Information
+    * [Purpose](purpose)
