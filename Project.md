@@ -1,9 +1,10 @@
 # Definition
 
-The project is the main focal point for all Business Lines
+The project is the main focal point for all Business Lines.  
+A project has one or more cost centers, units, buildings and ledgers.
 
 # Properties
-Project entity corresponds to “project” table in the database which has the following fields:
+Project entity corresponds to “project” collection in the database which has the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
