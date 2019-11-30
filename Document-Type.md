@@ -1,4 +1,4 @@
-# Document Type
+# Definition
 
 Document Type is a pseudo entity related to the entity “Document” in the system that is referred to as the type of the document.
 

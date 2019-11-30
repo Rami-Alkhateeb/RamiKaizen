@@ -1,4 +1,4 @@
-# Bank Account Type
+# Definition
 
 Bank Account Type is a pseudo entity related to the entity “Bank Account” in the system that is referred to as the type of the bank account.
 

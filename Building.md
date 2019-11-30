@@ -77,4 +77,4 @@ Attachments will be listed using Listing Documents process, and can be added for
 
 Notes will be listed using Listing Notes process, and can be added for a Building  using Creating Note process.
 
-* [ ] Access management Phase 2: If the unit is travel house, access should be managed @ariza
+* [ ] Access management Phase 2: If the unit is travel house, access should be managed @alidikici

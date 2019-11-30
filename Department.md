@@ -1,4 +1,4 @@
-# Department
+# Definition
 
 Each journal in the all of the ledgers utilize a department as the identifier to describe the assignment of the transaction. 
 

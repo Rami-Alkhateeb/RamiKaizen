@@ -1,3 +1,3 @@
 # Dubizzle Integration
 
-* [ ] @ariza
+* [ ] @alidikici

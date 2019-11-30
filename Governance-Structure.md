@@ -1,4 +1,4 @@
-# Governance Structure
+# Definition
 
 Governance Structure is a pseudo entity related to the entity “Project” in the system that is referred to as the governance structure of the project’s owners association .
 

@@ -1,4 +1,4 @@
-# Account
+# Definition
 
 Each journal in the all of the ledgers utilize an account as the identifier to describe the nature of the transaction. 
 

@@ -1,4 +1,4 @@
-# Mollak Integration
+# Definition
 
 Mollak is the UAE government's database of properties. System is expected to thave data integration mechanisms in place. Below are required settings to be saved in the system database:
 
@@ -6,4 +6,4 @@ Mollak is the UAE government's database of properties. System is expected to tha
 | ------    | ------ | ------    | ------       | ------      | ------
 | mollak_id | Text   | -         | -            | -           | User entry
 
-* [ ] @ariza
+* [ ] @alidikici

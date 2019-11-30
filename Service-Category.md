@@ -1,4 +1,4 @@
-# Service Category
+# Definition
 
 Service Category is a grouping of similar goods or services with common supply and demand drivers and suppliers. It is a pseudo entity related to the entity “Company” in the system that referred to the service category of a company.
 

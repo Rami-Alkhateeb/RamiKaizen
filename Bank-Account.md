@@ -1,4 +1,4 @@
-# Bank Account
+# Definition
 
 Bank Account entity is used to capture all the bank accounts we interact in real life.
 

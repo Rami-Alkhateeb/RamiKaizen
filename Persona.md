@@ -1,4 +1,5 @@
-# Personas
+# Definition
+
 A persona is a system user in which interacts with the system. Each individual persona has certain ways of using the system. 
 
 A persona shouldn’t be confused with the “User” entity defined in this document. While a user represents merely a login credential, a persona is the definition of the roles and actions in the system. In the following parts of this design document, the list of personas will be represented with their corresponding interactions.
@@ -132,7 +133,8 @@ If the user's contact function is Portfolio Manager, below feautures wil be enab
 * Portfolio Manager should be able to view the Maintenance costs for his units
 * Portfolio Manager should have dashboard of his units' status, showing Leased and Vacant Units
 
-## Community Manager
+## Community Manager Persona
+
 If the user's contact function is Community Manager, below features will be enabled:
 
 * User should be able to view the list of Reqests created by Tenants or Owners for the Community he is managing

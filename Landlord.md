@@ -1,7 +1,7 @@
-# Landlord
+# Definition
 Landlord entity defines the ownership of units with contacts. 
 
-## Landlord Properties
+# Properties
 Landlord entity corresponds to “landlord” table in the database which has the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
@@ -11,9 +11,9 @@ unit|Int|FK|Unit|-|Assigned automatically by the UI definition
 isCurrent|Bool|-|-|-|-
 ownedOn|Date|-|-|Date on the title deed|Date Picker
 
-## Landlord Processes
+# Processes
 
-### Landlord Listing
+## List
 
 ![image](uploads/d9a97f00bd09eaa6e55ca5e4fa47135f/image.png)
 
@@ -25,14 +25,14 @@ By default, when the tab is visited, currently active landlord details are expan
 
 Click of the contact name opens a modal screen to show the contact details.
 
-### Assign Landlord
+## Assign
 Assign button next to the landlord items in the UI opens Assigning Contact UI on a modal screen. Please refer to the functionality on the section Assigning Contact.
 
-### Unassign Landlord
+## Unassign
 
 When a user clicks to the cross button next to the contacts name on the UI, the system asks for a confirmation and upon confirmation, contact is unassigned from landlord definition.
 
-### Landlord Create
+## Create
 
 ![image](uploads/d695f18cc6bc3922e8559ad5162202a2/image.png)
 
@@ -52,3 +52,7 @@ When the unit is first defined in the system, and/or when the owner of a unit ch
         * Type: Unit SC Ledger
     * * [ ] Phase 2: Throw a reverse transaction to the previous landlord’s Unit SC Ledger in a prorated amount and throw a SC transaction to the new landlord’s Unit SC to move the prorated service charge to the new landlord>
     * Commit the PostgreSQL transaction.
+
+## Delete
+
+* [ ] @alidikici to complete definition

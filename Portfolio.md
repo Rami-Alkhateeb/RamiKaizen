@@ -43,7 +43,7 @@ Name: Name of the portfolio.
 
 Assigned Units: List of the units assigned to the portfolio.
 
-<<<TODO> Phase 2: Quick unit creation screen for the portfolios>>
+* [ ] Phase 2: Quick unit creation screen for the portfolios>>
 
 Attachments will be listed using Listing Documents process, and can be added for a Portfolio using Uploading Documents process.
 

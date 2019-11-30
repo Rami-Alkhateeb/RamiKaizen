@@ -1,4 +1,4 @@
-# Note
+# Definition
 
 Throughout the system, there are many points a user can assign a note as a description of an entity. Note entity is created in order to accommodate this need in the system. Note entity tuples are all recorded under the note table described with the below properties.
 
@@ -28,7 +28,7 @@ Referrer is the id of the referring Entity. Such as, if the Reference is Unit an
 
 # Processes
 
-## Listing
+## List
 
 ![image](uploads/62fccec1a6f399321f59373c9189faff/image.png)
 

@@ -1,4 +1,4 @@
-# Note Type
+# Definition
 
 Note Type is a pseudo entity related to the entity “Note” in the system that is referred to as the type of the note.
 

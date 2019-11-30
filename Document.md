@@ -1,4 +1,4 @@
-# Document
+# Definition
 
 Throughout the system, there are many points a user can upload a document as an attachment to an entity. Document entity is created in order to accommodate this need in the system. Document entity tuples are all recorded under the document table described with the below properties.
 

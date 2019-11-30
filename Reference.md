@@ -1,4 +1,4 @@
-# Reference
+# Definition
 
 Reference is a pseudo entity related to the entities “Document” and “Note” in the system that is referred to as the type.
 

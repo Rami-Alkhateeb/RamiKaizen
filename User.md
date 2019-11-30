@@ -1,7 +1,8 @@
-# User
+# Definition
+
 User entity in the system represents all the actors/personas of the system's users.
 
-## User Properties
+# Properties
 User entity corresponts to "user" table in the database which has the following fields:
 
 | Property   | Type   | Reference | Reference To | Description | Method
@@ -14,21 +15,21 @@ User entity corresponts to "user" table in the database which has the following 
 | twitter_id | Text   | -         | -            | Please refer to the sign-in methods section below|Auto Assigned
 | is_admin   | Bool   | -         | -            | Defines if the user is an administrator|Checkbox
 
-## Sign-in/up Methods
+# Sign-in/up Methods
 System will provide two separate sign-in methods for the users.
 
-### Sign-in/up with Username & Password
+## Sign-in/up with Username & Password
 User will be required to enter the credentials to the system as a combination of a username and password pair. As a default username of the user is a valid email address.
 
-### Sign-in/up with Auth Provider
+## Sign-in/up with Auth Provider
 User will be able to sign in and sign up to the system using an authentication provider. Possible authentication providers are listed below:
 * Google
 * Facebook (Phase 2)
 * Twitter (Phase 2)
 
-## User Processes
+# Processes
 
-### List Users
+## List
 
 ![image](uploads/7ba0fe3066747f168e78b407a4858e28/image.png)
 
@@ -36,7 +37,7 @@ Users are listed in a tabular format as shown on the above screen. All the field
 
 Click action on the "Create" button activates the "Create User" process.
 
-### Create/Edit/View User
+## Create/Edit/View
 
 ![image](uploads/c56b0bff4f1e3ea001329f7fbeea4481/image.png)
 
@@ -62,7 +63,7 @@ If this modal screen emerged in order to edit a user; heading should show “Edi
 
 Click action on the ![image](uploads/49eeee653113f3087c83c172d1c2bdb9/image.png) icon initiates the “Delete User” process.
 
-### Delete User
+## Delete
 
 When the ![image](uploads/49eeee653113f3087c83c172d1c2bdb9/image.png) icon is clicked on the details of a user, the system should confirm if the request should proceed. If confirmed, user’s tuple should be deleted from the system database, user table.
 
