@@ -1,5 +1,4 @@
-# Business Lines
-KaizenAMS operates in several business lines and these are listed as below:  
+KAMS operates in several business lines and these are listed as below:  
 * Unit Management
 * Property Management
 * Owners Association Management
