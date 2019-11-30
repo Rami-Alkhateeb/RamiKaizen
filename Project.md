@@ -1,8 +1,8 @@
-# Project
+# Definition
 
 The project is the main focal point for all Business Lines
 
-## Project Properties
+# Properties
 Project entity corresponds to “project” table in the database which has the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
@@ -33,9 +33,9 @@ last_board_on|Date|-|-|-|Date Picker
 mollak_id|Text|-|-|Mollak Database ID|User entry
 access_management_definitions|JSON|-|-|Phase 2|Phase 2
 
-## Project Processes
+# Processes
 
-### Project Listing
+## List
 All the projects in the system are recorded in the project table in the system database, irrespective of the business line.
 
 ![image](uploads/0a6e78d9386a58d7f83f8e75938b8c79/image.png)
@@ -56,7 +56,7 @@ There are additional action items on the Unit listing screen, listed below:
     * OA Filter: Shows only the owners association managed projects
     * Address Filter: Can filter based on the country and city
 
-### Project Delete
+## Delete
 
 A project can be deleted from the listing projects screen of the system. However, project deletion is not expected to happen normally and should require admin privileges. 
 
@@ -68,7 +68,7 @@ If the user has the necessary privileges, when the ellipsis button is clicked an
 
 If the user doesn’t have the necessary privileges, system should show a warning message informing the user.
 
-### Project Create
+## Create
 
 ![image](uploads/e25e2fa14e3eabaff90f4ead6acbce92/image.png)
 
@@ -85,11 +85,11 @@ Project creation on the backend database should be completed as a transaction wi
 * Insert tuple into the ledger table with the type "Project Ledger" and project as the last inserted id from the previous step.
 * Insert tuple into the ledger table with the type "OA Ledger" and project as the last inserted id from the previous step.
 
-### Project Edit/View
+## Edit/View
 
 Project details user interface employs a tabbed interface. Each tab and functionality is described in the following subsections.
 
-#### Project Profile Tab
+### Profile Tab
 
 ![image](uploads/c821b8c26cb3f90f3a76ce12047dd179/image.png)
 
@@ -133,7 +133,7 @@ Attachments will be listed using Listing Documents process, and can be added for
 
 Notes will be listed using Listing Notes process, and can be added for a project using Creating Note process.
 
-#### Project Owners Association Tab
+### Owners Association Tab
 
 If the project is OA managed as defined in the project’s profile page, the project details should show this tab.
 
@@ -161,22 +161,22 @@ Attachments will be listed using Listing Documents process, and can be added for
 
 Notes will be listed using Listing Notes process, and can be added for a project using Creating Note process.
 
-#### Project Buildings Tab
+### Buildings Tab
 Behavior of this tab is defined at Listing Buildings process definition.
 
-#### Project Cost Centers Tab
+### Cost Centers Tab
 Behavior of this tab is defined at Listing Cost Centers process definition.
 
-#### Project Units Tab
+### Units Tab
 Behavior of this tab is defined at Listing Units process definition.
 
-#### Project Budgets Tab
+### Budgets Tab
 Behavior of this tab is defined at Listing Budgets process definition.
 
-#### Project Access Management Tab
+### Access Management Tab
 * [ ] Should be defined @ariza
 
-#### Project Ledgers Tab
+### Ledgers Tab
 Each project has two ledgers created automatically while it's creation as mentioned above in this documentation section.  
 Behavior of this tab is defined at Ledger section of this documentation.
 - [ ] @alidikici add link to Ledger

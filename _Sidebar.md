@@ -7,7 +7,7 @@
     * [System User Interface](system-user-interface)
   * Entities
     * [Project](Project)
-    * []()
+    * [Cost Center](Cost-Center)
     * []()
     * []()
     * []()
