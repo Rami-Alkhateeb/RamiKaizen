@@ -9,7 +9,7 @@ Budget entity corresponds to “budget” table in the database which has the fo
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
 id|Int|PK|-|Unique Identifier|Auto generated
-budget_project|Int|FK|Project|Assigned project of the budget|Auto assignment
+project|Int|FK|Project|Assigned project of the budget|Auto assignment
 name|Text|-|-|Name of the Version of the budget|Auto assignment
 start|Date|-|-|Start date of the budget|Date Picker
 end|Date|-|-|End date of the budget|Date Picker
