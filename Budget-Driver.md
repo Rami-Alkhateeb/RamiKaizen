@@ -1,4 +1,4 @@
-# Budget Driver
+# Definition
 
 Budget Driver is a pseudo entity related to the entity “Budget Item” in the system that is referred to as the driver of the budget item.
 

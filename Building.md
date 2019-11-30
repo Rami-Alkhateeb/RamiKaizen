@@ -1,6 +1,8 @@
-# Building
+# Definition
 
-## Building Properties
+- [ ] @alidikici to complete
+
+# Properties
 Building entity corresponds to “building” table in the database which has the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
@@ -17,9 +19,9 @@ address|JSON|-|-|-|Google Maps
 warning_message|Text|-|-|-|User entry
 access_management_definitions|JSON|-|-|Phase 2|Phase 2
 
-## Building Processes
+# Processes
 
-### Building Listing
+## List
 
 System should list the buildings under the currently active project in a tabular format as represented below:
 
@@ -29,7 +31,7 @@ Click action on any of the columns should open a modal UI and display the buildi
 
 Click action on “Create” button initiates Creating a Building process.
 
-### Building Create
+## Create
 
 ![image](uploads/827d7a58c8e7c49dcf3912de8b718e32/image.png)
 
@@ -39,7 +41,7 @@ Two buttons on the modal screen should exist.
 * Create: Creates the building. Following the creation, system takes the user interface to the newly created building details screen as explained below.
 * Cancel: Cancels the creation and rolls back to building listing.
 
-### Building View/Edit
+## View/Edit
 
 ![image](uploads/a6db1327a3663302cd01ec2569612045/image.png)
 

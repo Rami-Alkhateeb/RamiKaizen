@@ -2,7 +2,7 @@
 
 Each project’s owner association performs a budget study annually. This budget is compiled into a file to be uploaded to the RERA (Real Estate Regulatory Agency)’s system, which is named Mollak. Our system will facilitate the budget preparation and generate an export file to be uploaded to Mollak system.
 
-## Budget Properties
+# Properties
 
 Budget entity corresponds to “budget” table in the database which has the following fields:
 
@@ -20,9 +20,9 @@ grace|Int|-|-|Grace period in number of days|User entry
 overdue_percentage|Float|-|-|Overdue charge percentage|User entry
 mollak_id|Text|-|-|-|User entry
 
-## Budget Processes
+# Processes
 
-### Budget Listing
+## List
 
 Budgets are listed under the project screens Budgets tab. Each budget is identified and automatically named by the start and end dates. Budget listing should resemble the below design:
 
@@ -30,7 +30,7 @@ Budgets are listed under the project screens Budgets tab. Each budget is identif
 
 Click action on any of the cells in the data rows will open the budget details on a modal screen. Budget details modal screen should have width and height set as 95% of the viewport by passing the width and height to the dialog.open API.
 
-### Budget Create
+## Create
 
 ![image](uploads/9818eebec57dab27accf846e1776301a/image.png)
 
@@ -48,11 +48,11 @@ Two buttons on the modal screen should exist.
     * Following the creation, system takes the user interface to the newly created budget details screen as explained below.
 * Cancel: Cancels the creation and rolls back to budget listing.
 
-### Budget Edit/View
+## Edit/View
 
 The budget is edited in tabs. First tab is the main definition tab and the rest of the tabs are the versions of the budget. Behavior of tabs are defined below.
 
-#### Definitions Tab
+### Definitions Tab
 
 ![image](uploads/9443fe75dfb7c7ffbf89bdf7c1f01eb9/image.png)
 
@@ -60,13 +60,13 @@ On this tab, the definitions of budget are set. Budgeters who are defined in the
 
 Click of the “New Driver” button creates a new driver as described in the “Budget Driver” section of this document.
 
-#### Budget Preparation Tabs - Work in Progress Versions
+### Budget Preparation Tabs - Work in Progress Versions
 
 ![image](uploads/58acc3637e38577df3ee3e734fae381c/image.png)
 
 All the budget is prepared on the Work in Progress Versions for a project’s owners association. 
 
-##### Budget Drivers Area
+#### Budget Drivers Area
 
 While preparing the budgets, controllers are encouraged to use a driver based budgeting for the completion of the budget. The main drivers and custom drivers are defined as described on the “Budget Driver” section of this document.
 
@@ -80,7 +80,7 @@ Behavior of the custom drivers are as follows:
 
 Each custom driver created in the system will be listed in the “drivers” area of the screen and the budget controller will be allowed to enter an amount per cost center. 
 
-##### Budget Preparation Area
+#### Budget Preparation Area
 
 Rows: 
 * All the accounts created as described in the “Account” section of this document will be listed on this area in a hierarchical way, if there is data either on actual or budget columns. 
@@ -114,7 +114,7 @@ Documents for each budget item: <<<TODO> Discuss with operations team>>
 
 Notes for each budget item: <<<TODO> Discuss with operations team>>
 
-#### Budget Preparation Tabs - Review Version
+### Budget Preparation Tabs - Review Version
 
 ![image](uploads/8bc865e94ba53b88d5f730401fdf4048/image.png)
 
@@ -124,7 +124,7 @@ Send Back: Click action of this button will copy the review remarks column to th
 
 Send to Audit: Click action of this button should create a new version with the “Audit” type. System should only have one and only one “Audit” typed budget version. Therefore, this button should overwrite the currently existing audit version. Since this action overwrites data, there should be a confirmation before system takes action. If there is no audit version, it should be created without confirmation. Once the version is sent for internal audit, it should become read-only for all.
 
-#### Budget Preparation Tabs - Audit Version
+### Budget Preparation Tabs - Audit Version
 
 ![image](uploads/e158d28c0cd49854027ef1365a7b3ca3/image.png)
 
@@ -134,7 +134,7 @@ Send Back: Click action of this button will copy the audit remarks column to the
 
 Approve: Click action of this button should create a new version with the “Approved” type. System should only have one and only one “Approved” typed budget version. Therefore, this button should overwrite the currently existing approved version. Since this action overwrites data, there should be a confirmation before system takes action. If there is no approved version, it should be created without confirmation. Once the version is approved, all the versions should become read-only for all.
 
-#### Budget Preparation Tabs - Approved Version
+### Budget Preparation Tabs - Approved Version
 
 ![image](uploads/c1e89713e3b60a5957c3b9d25147dfb5/image.png)
 

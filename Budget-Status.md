@@ -1,4 +1,4 @@
-# Budget Status
+# Definition
 
 Budget Status is a pseudo entity related to the entity “Budget” in the system that is referred to as the status of the budget.
 
