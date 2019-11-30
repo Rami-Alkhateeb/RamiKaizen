@@ -53,7 +53,7 @@
     * [Scheduled Tasks](Scheduled-Tasks)
   * Scenarios
     * [Login Scenario](Login-Scenario)
-    * [Register Scenario](Rgister-Scenario)
+    * [Register Scenario](Register-Scenario)
     * [Forgot Password Scenario](Forgot-Password-Scenario)
     * [Landlord Home Screen](Landlord-Home-Screen)
     * [Property Manager Home Screen](Property-Manager-Home-Screen)
