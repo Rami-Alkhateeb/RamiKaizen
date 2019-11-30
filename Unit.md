@@ -190,6 +190,8 @@ Listing documents UI should also provide the “Generate Document Template” fu
 
 ### Pictures Tab
 
+* [ ] @alidikici Pictures tab and marketing tab should be merged
+
 Pictures referred to in this tab are also recorded under the documents table of the database of the system. Please refer to the Document section of this document for further details.
 
 Listing of the unit pictures will be done as described in the Listing Documents section. 
