@@ -4,13 +4,6 @@ Project is designed to provide home for all the automation that is required by t
 
 Please use sidebar to browse through this documentation.
 
-# Purpose of Documentation
-
-Purpose of this design & processes definition document can be summarized in below points:
-* To be able to provide a holistic view on all the current and future entities in the KaizenAMS MasterPlan Centralized Asset Management System.
-* To be able to give a detailed view on all the processes expected from the system to be accomplished. 
-* To be able to provide a solid reference point for the development team of the expected final product.
-
 # ER Diagram
 
 The ER (Entity Relationship) diagram is provided as the main reference point for the whole system and its entities. In the following sections of this document more focused diagrams will also be provided to be ale to explain specific processes.
