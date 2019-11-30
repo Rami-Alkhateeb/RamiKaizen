@@ -1,3 +1,5 @@
+__TOC__
+
 # Table of Contents
 
 [Purpose of Documentation](content/Purpose.md)  
