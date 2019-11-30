@@ -1,4 +1,4 @@
 * [Home](home)
   * Main Information
     * [Purpose](purpose)
-    * [ER Diagram](erdiagram)
+    * [ER Diagram](er-diagram)
