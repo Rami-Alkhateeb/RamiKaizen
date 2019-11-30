@@ -27,7 +27,7 @@ mollak_id|Text|-|-|-|User entry
 
 Budgets are listed under the project screens Budgets tab. Each budget is identified and automatically named by the start and end dates. Budget listing should resemble the below design:
 
-![image](/uploads/09937d2972bd03b3472a35cec0004da2/image.png)
+![image](uploads/09937d2972bd03b3472a35cec0004da2/image.png)
 
 Click action on any of the cells in the data rows will open the budget details on a modal screen. Budget details modal screen should have width and height set as 95% of the viewport by passing the width and height to the dialog.open API.
 
