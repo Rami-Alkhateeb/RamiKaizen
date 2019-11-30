@@ -4,9 +4,9 @@
     * [ER Diagram](er-diagram)
     * [Business Lines](business-lines)
     * [System Database](system-database)
-    * []()
-    * []()
-    * []()
+    * [System User Interface](system-user-interface)
+  * Entities
+    * [Project](Project)
     * []()
     * []()
     * []()
