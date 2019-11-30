@@ -1,16 +1,13 @@
 # Definition
 
-Budget Status is a pseudo entity related to the entity “Budget” in the system that is referred to as the status of the budget.
-
-Definition of the behavior of Budget Status entity is defined in the Type Definition User Interface.
+Each budget item is the line-item in the budget study that is entered by the system users.
 
 # Properties
-Budget Status entity corresponds to “budget_status” table in the database which has the following fields:
+Budget Item entity doesn't correspond to any collection in the system database, however it is stored as an array under the budget entity's items field.
 
 
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
-id|Int|PK|-|-|Auto generated
 budget|Int|FK|Budget|The budget item's assigned budget|Auto assigned
 account|Int|FK|Account|Assigned account of the budget item|Auto assigned
 driver|Int|FK|Budget Driver|Assigned driver of the budget item|Dropdown
