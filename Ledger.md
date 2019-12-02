@@ -75,19 +75,19 @@ Below the ledger creation scenarios can be seen per each ledger type.
 This ledger object is placed in the object every time an object is created in the "contact" collection with the type "Internal Company". 
 
 ### Tenant Ledger
-This ledger tuple is inserted every time a tuple is inserted to "tenancy" table. During the insertion of the ledger tuple, "tenant" field should be populated with the id of the tenancy tuple inserted.
+This ledger object is a sub-object of the tenancy object [Tenancy](Tenancy) in the database.
 
 ### Landlord Ledger
-This ledger tuple is inserted every time a tuple is inserted to "landlord" table. During the insertion of the ledger tuple, "landlord" field should be populated with the id of the landlord tuple inserted.
+This ledger object is a sub-object of the landlord object [Landlord](Landlord) in the database.
 
 ### Landlord Service Charge Ledger
-This ledger tuple is inserted every time a tuple is inserted to "landlord" table. During the insertion of the ledger tuple, "landlord" field should be populated with the id of the landlord tuple inserted and the "unit" field should be populated with the "unit_id" of the landlord tuple inserted.
+This ledger object is a sub-object of the landlord object [Landlord](Landlord) in the database.
 
 ### Project Ledger
-This ledger tuple is inserted every time a tuple is inserted to "project" table. During the insertion of the ledger tuple, "project" field should be populated with the id of the project tuple inserted.
+This ledger object is a sub-object of the project object [Project](Project) in the database.
 
 ### Owners Association Ledger
-This ledger tuple is inserted every time a tuple is inserted to "project" table. During the insertion of the ledger tuple, "project" field should be populated with the id of the project tuple inserted.
+This ledger object is a sub-object of the project object [Project](Project) in the database.
 
 ### Vendor Ledger
-This ledger tuple is inserted every time a tuple is inserted to "contact" table with the type "Vendor Company". During the insertion of the ledger tuple, "company" field should be populated with the id of the contact tuple inserted.
+This ledger object is placed in the object every time an object is created in the "contact" collection with the type "Vendor Company". 
