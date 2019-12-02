@@ -7,19 +7,24 @@ Every financial transaction which occurs in the system generates one or more jou
 Details of the transactions are provided through out the system process definitions.
 
 # Properties
+Ledger entity is not represented in the database as a separate collection but as an element in the other entities' objects. 
 
-Ledger entity corresponds to “ledger” table in the database which has the following fields:
+Each ledger comprises of several shards and stored in the database in the below manner.
 
-| Property  | Type   | Reference | Reference To | Description | Method
-| ------    | ------ | ------    | ------       | ------      | ------
-id|Int|PK|-|Unique Identifier|Auto generated
-name|Text|-|-|-|User entry
-type|Text|FK|Ledger Type|Ledger Type|Dropdown
-company|Int|FK|Contact|The company that the ledger is assigned to|Searchable Dropdown
-unit|Int|FK|Unit|The unit that the ledger is assigned to|Searchable Dropdown
-landlord|Int|FK|Contact|The landlord that the ledger is assigned to|Searchable Dropdown
-tenant|Int|FK|Tenancy|The tenant that the ledger is assigned to|Searchable Dropdown
-project|Int|FK|Project|The project that the ledger is assigned to|Searchable Dropdown
+```
+[
+    'shard_id_1', 
+    'shard_id_2', 
+    ..., 
+    'shard_id_n'
+]
+```
+# Ledger Shards
+Due to the nature and limitations of the Firestore database, every Firestore object can have the maximum size of a 1MB. However, some ledgers can have enough number of journal entries, which can exceed this limit. On the other hand, it is not logical to store all the journal entries as a separate object in the database due to the cost concrens.
+
+In order to mitigate these limitations, we will be storing the data in shards in the "shard" collection of the database. 
+
+As a principle each shard can have a maximum of 1000 journal entries in an array, so when the data is queried, only one read operation occurs per shard. 
 
 # Constraints on the Ledger Types
 For each ledger type below table shows which fields can be assigned. 
