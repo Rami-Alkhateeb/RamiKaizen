@@ -33,6 +33,11 @@ last_general_assembly_on|Date|-|-|-|Date Picker
 last_board_on|Date|-|-|-|Date Picker
 mollak_id|Text|-|-|Mollak Database ID|User entry
 access_management_definitions|JSON|-|-|Phase 2|Phase 2
+marketing_description|String|-|-|As described in the profile section|User entry
+notes|JSON Array|-|-|-|[Note](Note)
+documents|JSON Array|-|-|-|[Document](Document)
+contacts|JSON Array|-|-|-|[Contact](Contact)
+
 
 # Processes
 
