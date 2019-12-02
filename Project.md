@@ -78,16 +78,16 @@ So this object holds the information for the ledgers of the project. The object 
 ```
 {
     project_ledger_shards: [
-        'shard_id_1', 
-        'shard_id_2', 
+        {id: 'shard_id_1', has_available_space: false }, 
+        {id: 'shard_id_2', has_available_space: false }, 
         ..., 
-        'shard_id_n'
+        {id: 'shard_id_n', has_available_space: true }
     ],
     oa_ledger:  [
-        'shard_id_1', 
-        'shard_id_2', 
+        {id: 'shard_id_1', has_available_space: false }, 
+        {id: 'shard_id_2', has_available_space: false }, 
         ..., 
-        'shard_id_n'
+        {id: 'shard_id_n', has_available_space: true }
     ]
 }
 ```

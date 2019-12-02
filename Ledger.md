@@ -13,10 +13,10 @@ Each ledger comprises of several shards and stored in the database in the below 
 
 ```
 [
-    'shard_id_1', 
-    'shard_id_2', 
+    {id: 'shard_id_1', has_available_space: false }, 
+    {id: 'shard_id_2', has_available_space: false }, 
     ..., 
-    'shard_id_n'
+    {id: 'shard_id_n', has_available_space: true }
 ]
 ```
 # Ledger Shards
@@ -26,10 +26,10 @@ In order to mitigate these limitations, we will be storing the data in shards in
 
 As a principle each shard can have a maximum of 1000 journal entries in an array, so when the data is queried, only one read operation occurs per shard. 
 
+As can be seen from the above shard definition, each shard contains the information of being full or not at the "has_available_space" boolean flag.
+
 # Constraints on the Ledger Types
 For each ledger type below table shows which fields can be assigned. 
-
->  Please note: Since the owners association is now part of the project entity, OA column from below table is removed.
 
 | Ledger Type        | Company| Unit      | Landlord | Project| Tenant
 | ------             | ------ | ------    | ------   | ------ | ------
@@ -72,7 +72,7 @@ Throughout the system, creation of entities define the insertion of the ledger t
 Below the ledger creation scenarios can be seen per each ledger type.
 
 ### General Ledger
-This ledger tuple is inserted every time a tuple is inserted to "contact" table with the type "Internal Company". During the insertion of the ledger tuple, "company" field should be populated with the id of the contact tuple inserted.
+This ledger object is placed in the object every time an object is created in the "contact" collection with the type "Internal Company". 
 
 ### Tenant Ledger
 This ledger tuple is inserted every time a tuple is inserted to "tenancy" table. During the insertion of the ledger tuple, "tenant" field should be populated with the id of the tenancy tuple inserted.
