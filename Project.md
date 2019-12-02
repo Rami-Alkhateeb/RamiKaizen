@@ -38,6 +38,7 @@ notes|JSON Array|-|-|-|[Note](Note)
 documents|JSON Array|-|-|-|[Document](Document)
 contacts|JSON Array|-|-|-|[Contact](Contact)
 units|JSON Array|-|-|-|Description Below
+ledgers|JSON Object|-|-|-|Description Below
 
 ## Units
 This array is a limited replica of the units stored as separate objects in the FireStore database. Only the below fields of the whole unit field list will be stored here:
@@ -66,6 +67,30 @@ There is no need to have a separate Document collection, all the document detail
 ## Notes
 This array is the array of the note definitions as described in [Note](Note).  
 There is no need to have a separate Note collection. All the note details will be stored in the relevant objects in the Firestore.
+
+## Ledgers
+As described in [Ledger](Ledger) a project can have multiple ledgers. Namely;
+* Project Ledger
+* Owners Association Ledger
+
+So this object holds the information for the ledgers of the project. The object structure is as follows:
+
+```
+{
+    project_ledger_shards: [
+        'shard_id_1', 
+        'shard_id_2', 
+        ..., 
+        'shard_id_n'
+    ],
+    oa_ledger:  [
+        'shard_id_1', 
+        'shard_id_2', 
+        ..., 
+        'shard_id_n'
+    ]
+}
+```
 
 # Processes
 
