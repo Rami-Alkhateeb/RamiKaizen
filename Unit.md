@@ -11,11 +11,11 @@ Unit entity corresponds to “unit” table in the database which has the follow
 | ------    | ------ | ------    | ------       | ------      | ------
 id|Int|PK|-|Unique Identifier|Auto generated
 name|Text|-|-|Name/Number of the Unit|User entry
-unit_type|Text|FK|Unit Type|Refer to below list of types|Referred dropdown
-unit_subtype|Text|FK|Unit Subtype|Refer to below list of types|Referred dropdown
-unit_building|Int|FK|Building|Building the unit belongs to|Searchable dropdown
-unit_cost_center|Int|FK|Cost Center|Cost Center the unit is assigned to|Searchable dropdown
-unit_portfolio|Int|FK|Portfolio|Portfolio the unit belongs to|Searchable dropdown
+type|Text|FK|Unit Type|Refer to below list of types|Referred dropdown
+subtype|Text|FK|Unit Subtype|Refer to below list of types|Referred dropdown
+building|Int|FK|Building|Building the unit belongs to|Searchable dropdown
+cost_center|Int|FK|Cost Center|Cost Center the unit is assigned to|Searchable dropdown
+portfolio|Int|FK|Portfolio|Portfolio the unit belongs to|Searchable dropdown
 plot|Text|-|-|Name of the plot from title deed|User entry
 area|Float|-|-|Build up Area of the Unit|User entry
 floor|Int|-|-|In which floor the Unit in the building|User entry
@@ -27,7 +27,7 @@ is_managed|Bool|-|-|Identifies if the unit is managed by Unit Management|Checkbo
 dewa_id|Text|-|-||User entry
 created_on|Date|-|-|Creation date of the tuple|Auto generated
 last_update|Date|-|-|Any update action should trigger the update|Auto generated
-unit_tenancy_status|Text|FK|Tenancy Status|Tenancy Status of the unit|Dropdown
+tenancy_status|Text|FK|Tenancy Status|Tenancy Status of the unit|Dropdown
 mollak_id|Text|-|-||User entry
 access_management_definitions|JSON|-|-|Phase 2|Phase 2
 

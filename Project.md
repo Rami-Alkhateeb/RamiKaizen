@@ -37,7 +37,35 @@ marketing_description|String|-|-|As described in the profile section|User entry
 notes|JSON Array|-|-|-|[Note](Note)
 documents|JSON Array|-|-|-|[Document](Document)
 contacts|JSON Array|-|-|-|[Contact](Contact)
+units|JSON Array|-|-|-|Description Below
 
+## Units
+This array is a limited replica of the units stored as separate objects in the FireStore database. Only the below fields of the whole unit field list will be stored here:
+* id
+* name
+* type
+* building
+* cost_center
+* portfolio
+* area
+* floor
+* status
+
+## Contacts
+This array is a limited replica of the contacts assigned to the project. Only the below fields of the contacts will be stored here:
+* id
+* name
+* surname
+* function
+  * Please note, the function logic was originally designed with the [Contact Function](Contact-Function) entity and [Contact Reference](Contact-Reference). This functionality is now moved to the inline arrays now.
+
+## Documents
+This array is the array of document definitions as described in [Document](Document).  
+There is no need to have a separate Document collection, all the document details will be stored in the relevant objects in the Firestore.
+
+## Notes
+This array is the array of the note definitions as described in [Note](Note).  
+There is no need to have a separate Note collection. All the note details will be stored in the relevant objects in the Firestore.
 
 # Processes
 
