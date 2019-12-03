@@ -30,6 +30,8 @@ last_update|Date|-|-|Any update action should trigger the update|Auto generated
 tenancy_status|Text|FK|Tenancy Status|Tenancy Status of the unit|Dropdown
 mollak_id|Text|-|-||User entry
 access_management_definitions|JSON|-|-|Phase 2|Phase 2
+pictures|JSON Array|-|-|A JSON array of [Document](Document)|Document Upload Process
+documents|JSON Array|-|-|A JSON array of [Document](Document)|Document Upload Process
 
 # Ancestors Analysis
 
