@@ -22,6 +22,7 @@ position|Int|-|-|Position of the type in the list in any UI Component|Drag&Drop
 * Passport
 * Tenancy Contract
 * Invoice
+* Floor Plan
 
 # Related Notifications
 
@@ -35,7 +36,7 @@ National ID has an issue date and in some countries, an expiry date. System user
 
 Notification Date property of the tuple will be automatically set to 30 calendar days before the expiry date.
 
-< < < TODO > Design the notification message template > >
+* [ ] < < < TODO > Design the notification message template > > @alidikici
 
 ## Visa Document Requirements
 
