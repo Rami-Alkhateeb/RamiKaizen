@@ -1,12 +1,14 @@
 # Definition
 
-Contact Function is a pseudo entity related to the entity “Contact Reference” in the system that is referred to as the type of the reference.
+Contact Function is a pseudo entity used wherever a Contact entity is assigned to any of the other entities. 
 
-Definition of the behavior of Contact Function entity is defined in the Type Definition User Interface.
+During the contact assignment, the user is expected to select a function for the assignment and the list provided below at the "Default List" should be presented to the user as a dropdown menu.
+
+The list can be edited and/or reordered using the [Type Definition User Interface](Type-Definition-User-Interface).
 
 # Properties
 
-Contact Function entity corresponds to “contact_function” table in the database which has the following fields:
+Contact Function entity corresponds to “contact_function” collection in the database which has the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
@@ -27,3 +29,8 @@ position|Int|-|-|Position of the type in the list in any UI Component|Drag&Drop
 * Portfolio Manager
 * Broker
 * Landlord
+* Developer
+* Board Member
+* Budget Controller
+* Budget Reviewer
+* Auditor
