@@ -1,20 +1,19 @@
 # Definition
 
-* [ ] @alidikici to complete definition
+Cost Center is a group of units within a project that is used to segmentize the budgets for the projects. 
 
 # Properties
 
-Cost Center entity corresponds to “cost_center” table in the database which has the following fields:
+Cost Center entity doesn't correspond to any collection in the database, however it is a sub-object under the project entity with the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
 id|Int|PK|-|Unique Identifier|Auto generated
 name|Text|-|-|Name of the cost center|User entry
-cost_center_project|Int|FK|project|Project of the cost center|Searchable Dropdown
 hasGeneralFund|Bool|-|-|-|Checkbox
 hasReserveFund|Bool|-|-|-|Checkbox
 description|Text|-|-|-|User entry
-cost_center_entitlement_type|Text|FK|Entitlement Type|Entitlement Type|Dropdown
+entitlement_type|Text|FK|Entitlement Type|Entitlement Type|Dropdown
 entitlement_type_reason|Text|-|-|-|User entry
 aggregate_entitlement|Calc|-|-|-|-
 notice_text|Text|-|-|-|User entry
@@ -24,6 +23,7 @@ date|Date|-|-|-|Date Picker
 mollak_id|Text|-|-|-|User entry
 mollak_name|Text|-|-|-|User entry
 mollak_sc_usage|Text|-|-|-|User entry
+units|JSON Object|-|-|-|Assign Unit Process
 
 # Processes
 
@@ -87,4 +87,22 @@ Attachments will be listed using Listing Documents process, and can be added for
 
 Notes will be listed using Listing Notes process, and can be added for a Cost Center  using Creating Note process.
 
-Assign Units: Click action of the “Assign Units” button on the cost center detail screen should open a new modal UI and represent the list of unassigned units. From this list user should be able to assign the available units to the cost center.
+## Assign Units
+
+Click action of the “Assign Units” button on the cost center detail screen should open a new modal UI and represent the list of unassigned units. From this list user should be able to assign the available units to the cost center.
+
+The list of units are only the units which are listed under the project "units" array.  
+When the unit is assigned to a cost center it turns to true in the units object.
+
+Sample object for the units field is provided below
+
+```
+{
+    unit_1: true,
+    unit_2: false,
+    ...,
+    unit_n: true
+}
+```
+
+With this, the assignment logic will be very simple to implement on the UI.

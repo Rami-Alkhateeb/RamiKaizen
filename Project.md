@@ -26,6 +26,7 @@ oa_address|JSON|-|-|-|Google Maps UI
 trn|Text|-|-|Tax Registration Number|User entry
 project_governance_structure|Text|FK|Governance Structure|-|Dropdown
 grace|Int|-|-|Number of days of grace for each payment related to project service charge invoices|User entry
+warning_message|Text|-|-|This message will be used in the communications with the related people|User entry
 overdue_penalty|Int|-|-|Percentage per month of overdue penalty|User entry
 fy_start|dd/mm|||Required for budget season definition|User entry
 first_general_assembly_on|Date|-|-|-|Date Picker
@@ -39,6 +40,7 @@ documents|JSON Array|-|-|-|[Document](Document)
 contacts|JSON Array|-|-|-|[Contact](Contact)
 units|JSON Array|-|-|-|Description Below
 ledgers|JSON Object|-|-|-|Description Below
+cost_centers|JSON Object|-|-|-|Description Below
 
 ## Units
 This array is a limited replica of the units stored as separate objects in the FireStore database. Only the below fields of the whole unit field list will be stored here:
