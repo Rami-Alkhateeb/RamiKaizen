@@ -152,6 +152,8 @@ Project details user interface employs a tabbed interface. Each tab and function
 
 ![image](uploads/c821b8c26cb3f90f3a76ce12047dd179/image.png)
 
+![image](uploads/projects/project-profile.png)
+
 Name: Name of the project.
 
 Address: Address of the project. Edit button next to address opens the Address selection/creation UI on a modal screen.
