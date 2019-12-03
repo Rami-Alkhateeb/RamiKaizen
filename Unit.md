@@ -169,6 +169,8 @@ Fields editable in this tab are as follows:
 * Management Start Date: Date of the management contract start.
 * Management End Date: Date of the management contract end.
 
+* [ ] TODO @alidikici We should have a separate tab for contract management.
+
 ### Documents Tab
 Documents referred to in this tab are recorded under the documents table of the database of the system. Please refer to the Document section of this document for further details.
 
