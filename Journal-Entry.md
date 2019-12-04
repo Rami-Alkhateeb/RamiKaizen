@@ -9,18 +9,20 @@ Journal Entry entity corresponds to “journal” table in the database which ha
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
 id|Int|PK|-|Unique Identifier|Auto generated
-journal_invoice|Int|FK|Invoice|-|Auto assigned
-journal_account|Int|FK|Account|Assigned account|Auto assigned / Searchable Dropdown
-journal_department|Int|FK|Department|Assigned department|Auto assigned / Searchable Dropdown
-journal_cost_center|Int|FK|Cost Center|Assigned cost center|Auto assigned / Searchable Dropdown
-journal_posted_by|Int|FK|Contact|Who posted the journal|Auto assigned
+invoice|Text|FK|Invoice|-|Auto assigned
+account|Text|FK|Account|Assigned account|Auto assigned / Searchable Dropdown
+department|Text|FK|Department|Assigned department|Auto assigned / Searchable Dropdown
+cost_center|Text|FK|Cost Center|Assigned cost center|Auto assigned / Searchable Dropdown
+posted_by|Text|FK|Contact|Who posted the journal|Auto assigned
 posting_date|Date|-|-|When the journal posted|Auto assigned
 date|Date|-|-|Real transaction date|Datepicker
 description|Text|-|-|-|User entry
 debit|Float|-|-|Debit Value|Auto assigned / User entry
 credit|Float|-|-|Credit Value|Auto assigned / User entry
-journal_bank_account|Int|FK|Bank||Searchable Filtered Dropdown
+bank_account|Int|FK|Bank||Searchable Filtered Dropdown
 bank_transaction_id|Text|-|-|-|Auto assigned / User entry
+documents|JSON Array|-|-|A JSON array of [Document](Document)|Document Upload Process
+notes|JSON Array|-|-|A JSON arroy of [Note](Note)|Note Create Process
 
 # Processes
 

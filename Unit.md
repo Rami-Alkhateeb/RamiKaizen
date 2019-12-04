@@ -25,13 +25,14 @@ bathrooms|Int|-|-|Number of bathrooms|User entry
 parking_of|Int|FK|Unit|If unit type is parking, this parking unit might be bound to another unit|Searchable dropdown
 is_managed|Bool|-|-|Identifies if the unit is managed by Unit Management|Checkbox
 dewa_id|Text|-|-||User entry
-created_on|Date|-|-|Creation date of the tuple|Auto generated
-last_update|Date|-|-|Any update action should trigger the update|Auto generated
+created_at|Timestamp|-|-|Creation date of the tuple|Auto generated
+updated_at|Timestamp|-|-|Any update action should trigger the update|Auto generated
 tenancy_status|Text|FK|Tenancy Status|Tenancy Status of the unit|Dropdown
 mollak_id|Text|-|-||User entry
 access_management_definitions|JSON|-|-|Phase 2|Phase 2
 pictures|JSON Array|-|-|A JSON array of [Document](Document)|Document Upload Process
 documents|JSON Array|-|-|A JSON array of [Document](Document)|Document Upload Process
+notes|JSON Array|-|-|-|[Note](Note)
 
 # Ancestors Analysis
 

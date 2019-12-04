@@ -20,8 +20,8 @@ start_date|Date|-|-|Refer to the document type section|Date picker
 end_date|Date|-|-|Refer to the document type section|Date picker
 issue_date|Date|-|-|Refer to the document type section|Date picker
 expiry_date|Date|-|-|Refer to the document type section|Date picker
-notification_date|Date|-|-|Refer to the document type section|Auto generated
-
+notification_date|Date|-|-|Refer to the document type section|Date picker
+due_date|Date|-|-|Refer to the document type section|Date picker
 # Processes
 
 ## List
