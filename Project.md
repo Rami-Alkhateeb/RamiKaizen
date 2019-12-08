@@ -24,7 +24,7 @@ plan_no|Text|-|-|-|User entry
 present_use|Text|-|-|-|Dynamically Generated
 oa_address|JSON|-|-|-|Google Maps UI
 trn|Text|-|-|Tax Registration Number|User entry
-project_governance_structure|Text|FK|Governance Structure|-|Dropdown
+governance_structure|Text|FK|Governance Structure|-|Dropdown
 grace|Int|-|-|Number of days of grace for each payment related to project service charge invoices|User entry
 warning_message|Text|-|-|This message will be used in the communications with the related people|User entry
 overdue_penalty|Int|-|-|Percentage per month of overdue penalty|User entry
@@ -41,6 +41,7 @@ contacts|JSON Array|-|-|-|[Contact](Contact)
 units|JSON Array|-|-|-|Description Below
 ledgers|JSON Object|-|-|-|Description Below
 cost_centers|JSON Object|-|-|-|Description Below
+fy_start|Date|-|-|Fiscal Year Start|Date Picker
 
 ## Units
 This array is a limited replica of the units stored as separate objects in the FireStore database. Only the below fields of the whole unit field list will be stored here:
