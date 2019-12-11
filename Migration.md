@@ -31,7 +31,7 @@ general         | -                             | If this field is populated, ta
 reserve         | -                             | If this field is populated, target account will be reserve fund (Code 12; Refer to the Map File)
 subfund         | -                             | Discard this field but show a warning if populated
 presenteddate   | posting_date                  | Insert current date
--               | imported                      | Assign true, so in the future we will know, this journal was imported
+_-_               | imported                      | Assign true, so in the future we will know, this journal was imported
 
 Other fields of the Journal object will be left empty.
 
