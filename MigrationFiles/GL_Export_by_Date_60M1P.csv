@@ -1,5 +1,5 @@
-"transactiondate","accname","Unit","invoice","reference","chequeno","receiptno","transtotal","category","General","Reserve","categorytotal","subfund","presenteddate"
-"02/01/17","Ali Chit","2/R202","","Unit 2/R202 Service Charge payment for Ali Chit","500035","3","8942.00","Service Charge","8942.00","","8942.00","","18/02/17"
+"transactiondate","accname ","Unit  ","invoice","reference                                      ","chequeno","receiptno","transtotal","category.     ","General","Reserve","categorytotal","subfund","presenteddate"
+"02/01/17.      ","Ali Chit","2/R202","       ","Unit 2/R202 Service Charge payment for Ali Chit","500035  ","3.       ","8942.00.  ","Service Charge","8942.00","       ","8942.00.     ","       ","18/02/17"
 "03/01/17","Service Charge credit transfer","2/R202","","Unit 2/R202 credit transfer","","","","SC Fees - credit transfer","-1012.53","1012.53","","",""
 "04/01/17","Majd M. Salih Tchalabi","1/R110","","Unit 1/R110 Service Charge payment for Majd M. Salih Tchalabi","100008","1","10601.40","Service Charge","10601.40","","10601.40","","04/01/17"
 "10/01/17","Mohideen Qanani","1/R101","","Unit 1/R101 Service Charge payment for Mohideen Qanani","500016","8","7773.33","Service Charge","7773.33","","7773.33","","10/01/17"
