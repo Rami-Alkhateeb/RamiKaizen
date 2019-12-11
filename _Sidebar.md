@@ -1,4 +1,5 @@
 * [Home](home)
+  * [Migration](Migration)
   * Main Information
     * [Purpose](purpose)
     * [ER Diagram](er-diagram)
