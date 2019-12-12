@@ -31,7 +31,7 @@ general         | -                             | If this field is populated, ta
 reserve         | -                             | If this field is populated, target account will be reserve fund (Code 12; Refer to the Map File)
 subfund         | -                             | Discard this field but show a warning if populated
 presenteddate   | posting_date                  | Insert current date
-_-_               | imported                      | Assign true, so in the future we will know, this journal was imported
+_-_             | imported                      | Assign true, so in the future we will know, this journal was imported
 
 Other fields of the Journal object will be left empty.
 
@@ -39,3 +39,45 @@ Other fields of the Journal object will be left empty.
 
 [Map File](MigrationFiles/Mollak_Categories.xlsx)
 
+# Accounts Payable
+The rows mentioned in this type of files will be copied to AP ledger of the project.  
+AP ledger of the project should be accessible from the Ledgers tab of the project.  
+Each line corresponds to an "Invoice" entry in the invoices collection.
+
+CSV Column        | Corresponding Journal Field   | Notes 
+------            | ------                        | ------
+Invoice_No        | invoice_number                | -
+_-_               | type                          | Always assign 'AP' as the invoice type
+Invoice_Date      | invoice_date                  | -
+Due_date          | due_date                      | -
+Account_Name      | contact                       | We should map the id from the contact name here
+Reference         | description                   | -
+Amount            | amount                        | -
+Amount_Paid       | amount_paid                   | -
+Balance           | balance                       | -
+Accrued           | accrued                       | Convert to boolean NO = false, YES = true
+Accrued_From_Date | accrued_from                  | -
+Accrued_To_Date   | accrued_to                    | -
+Authorised_Status | -                             | Discard this field
+
+# Accounts Receivable
+The rows mentioned in this type of files will be copied to AR ledger of the project.  
+AR ledger of the project should be accessible from the Ledgers tab of the project.  
+Each line corresponds to an "Invoice" document in the invoices collection.
+
+CSV Column         | Corresponding Journal Field   | Notes 
+------             | ------                        | ------
+Invoice_No         | invoice_number                | -
+_-_                | type                          | Always assign 'AR' as the invoice type
+Invoice_Date       | invoice_date                  | -
+Due_date           | due_date                      | -
+Account_Name       | contact                       | We should map the id from the contact name here
+Reference          | description                   | -
+Amount             | amount                        | -
+Amount_Paid        | amount_paid                   | -
+Balance            | balance                       | -
+Printed            | printed                       | Convert to boolean NO = false, YES = true 
+Accrued            | accrued                       | Convert to boolean NO = false, YES = true
+Accrued_From_Date  | accrued_from                  | -
+Accrued_To_Date    | accrued_to                    | -
+Associated_to_Unit | -                             | We should map the id of the unit name here
