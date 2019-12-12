@@ -38,13 +38,26 @@ marketing_description|String|-|-|As described in the profile section|User entry
 notes|JSON Array|-|-|-|[Note](Note)
 documents|JSON Array|-|-|-|[Document](Document)
 contacts|JSON Array|-|-|-|[Contact](Contact)
-units|JSON Array|-|-|-|Description Below
+units|JSON Object|-|-|-|Description Below
 ledgers|JSON Object|-|-|-|Description Below
 cost_centers|JSON Object|-|-|-|Description Below
 fy_start|Date|-|-|Fiscal Year Start|Date Picker
 
 ## Units
-This array is a limited replica of the units stored as separate objects in the FireStore database. Only the below fields of the whole unit field list will be stored here:
+This object is a limited replica of the units stored as separate objects in the FireStore database. Only the below fields of the whole unit field list will be stored here:
+
+```
+units: {
+    unit1id: {
+        name: 'Unit1name', type: 'Unit1Type', building: 'Unit1BuildingID', 
+        cost_center: 'Unit1CCID', portfolio: 'Unit1PortfolioID',
+        area: Unit1Area, floor: 'Unit1Floor', status: 'Unit1Status'
+    },
+    unitnid: {
+        nnn
+    }
+}
+```
 * id
 * name
 * type
