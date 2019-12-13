@@ -51,7 +51,8 @@ units: {
     unit1id: {
         name: 'Unit1name', type: 'Unit1Type', building: 'Unit1BuildingID', 
         cost_center: 'Unit1CCID', portfolio: 'Unit1PortfolioID',
-        area: Unit1Area, floor: 'Unit1Floor', status: 'Unit1Status'
+        area: Unit1Area, floor: 'Unit1Floor', status: 'Unit1Status',
+        mollakid: UnitMollakID
     },
     unitnid: {
         nnn
