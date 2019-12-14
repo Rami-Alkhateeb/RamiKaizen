@@ -18,3 +18,4 @@ accrued          | boolean | -            | -                         | Checkbox
 accrued_from     | number  | -            | yyyymmdd                  | User entry
 accrued_to       | number  | -            | yyyymmdd                  | User entry
 unit             | string  | units        | get project units element | Dropdown
+account          | string  | coa/accounts | -                         | Dropdown
