@@ -1,1 +1,1 @@
-Everything should come to one place. Somebody calls me or walks in, I should be able to instantly see all.
+Everything should come to one place. Somebody calls the call center and/or walks in, I should be able to instantly see all.
