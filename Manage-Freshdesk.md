@@ -1,0 +1,1 @@
+Everything should come to one place. Somebody calls me or walks in, I should be able to instantly see all.
