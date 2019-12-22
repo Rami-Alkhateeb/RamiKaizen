@@ -2,6 +2,7 @@
   * [Migration](Migration)
   * [Customer Feedback](Customer-Feedback)
   * [Resident Retention](Resident-Retention)
+  * [Kaizen Radio](Kaizen-Radio)
   * Main Information
     * [Purpose](purpose)
     * [ER Diagram](er-diagram)
