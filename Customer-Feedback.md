@@ -1,3 +1,3 @@
-* [] @alidikici to find out customer feedback mechanism.
+- [] @alidikici to find out customer feedback mechanism.
 
 WhatsApp surveys.
