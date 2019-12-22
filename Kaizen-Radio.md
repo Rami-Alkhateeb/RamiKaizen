@@ -1,0 +1,1 @@
+A single audio output in the lobby
