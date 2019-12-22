@@ -3,7 +3,7 @@
   * [Customer Feedback](Customer-Feedback)
   * [Resident Retention](Resident-Retention)
   * [Kaizen Radio](Kaizen-Radio)
-  * [Manage FreshDesk](Manage-Freshdesk)
+  * [Manage Customer Interaction](Manage-Customer-Interaction)
   * Main Information
     * [Purpose](purpose)
     * [ER Diagram](er-diagram)
