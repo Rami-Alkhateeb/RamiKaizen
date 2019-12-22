@@ -1,6 +1,7 @@
 * [Home](home)
   * [Migration](Migration)
   * [Customer Feedback](Customer-Feedback)
+  * [Resident Retention](Resident-Retention)
   * Main Information
     * [Purpose](purpose)
     * [ER Diagram](er-diagram)
