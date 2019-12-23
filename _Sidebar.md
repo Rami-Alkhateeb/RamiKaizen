@@ -58,6 +58,7 @@
   * Scheduled Tasks
     * [Scheduled Tasks](Scheduled-Tasks)
   * Scenarios
+    * [Mobile Splash Screen](Mobile-Splash-Screen)
     * [Login Scenario](Login-Scenario)
     * [Register Scenario](Register-Scenario)
     * [Forgot Password Scenario](Forgot-Password-Scenario)
