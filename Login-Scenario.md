@@ -3,11 +3,11 @@ Naturally this entry point is the login screen on both mobile and web applicatio
 
 Below is the design of the login screen:
 
-![image](uploads/abf5be7d416ef6a7fe5f578e3472ff57/image.png)
+![image](uploads/Login1.png)
 
 If the password is wrong, system should show the below screen:
 
-![image](uploads/102e8353e42e2fc5af237d10af47c870/image.png)
+![image](uploads/Login2.png)
 
 Since a user can have multiple personas, below screen is introduced to the user if the user have multiple roles:
 
@@ -21,3 +21,12 @@ Once the persona is selected it should proceed to the correct view of the applic
 
 For the users with only one persona, this page will not be shown and skipped.
 
+A user definition can be assigned to multiple contacts in the system as defined in the "Contact" entity documentation.
+
+As a result, there are two steps to list all the personas for a single user:
+* List all the contacts assigned to the user
+* List all the contact_assignments assigned to each of the contacts
+
+The joint list of these two queries will give the list of possible assigned personas for a user.
+
+Each of the personas' scenarios are listed in the "Scenarios" section of this documentation.
