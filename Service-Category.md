@@ -4,7 +4,7 @@ Service Category is a grouping of similar goods or services with common supply a
 
 # Properties
 
-Service Category entity corresponds to “service_category” table in the database which has the following fields:
+Service Category entity corresponds to “service_category” object under the types collection in the database which has the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
