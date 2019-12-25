@@ -18,7 +18,7 @@ status|Text|FK|Budget Status|-|Dropdown
 type|Text|FK|Budget Type|-|Dropdown
 grace|Int|-|-|Grace period in number of days|User entry
 overdue_percentage|Float|-|-|Overdue charge percentage|User entry
-lineitems|JSON Array|-|-|Stores the line items entered by the users|User entry
+lineitems|JSON Object|-|-|Stores the line items entered by the users|User entry
 mollak_id|Text|-|-|-|User entry
 
 # Processes
