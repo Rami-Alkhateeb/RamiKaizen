@@ -23,3 +23,4 @@ account          | string  | coa/accounts | -                         | Dropdown
 
 Prepare invoice_types under types collection  
 Update definition for invoice items  
+Find the correct account for SC Invoice
