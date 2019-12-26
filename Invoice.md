@@ -8,7 +8,7 @@ invoice_number   | string  | -            | -                         | User 
 type             | string  | invoice_type | sub-collection of types   | Dropdown
 invoice_date     | number  | -            | yyyymmdd                  | User entry
 due_date         | number  | -            | yyyymmdd                  | User entry
-contacts         | JSON array  | contacts     | -                         | Dropdown
+contacts         | contact_reference  | contacts     | -                         | Dropdown
 description      | string  | -            | -                         | User entry
 amount           | number  | -            | -                         | User entry
 amount_paid      | number  | -            | -                         | User entry
