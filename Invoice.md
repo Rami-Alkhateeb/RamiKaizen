@@ -8,7 +8,7 @@ invoice_number   | string  | -            | -                         | User 
 type             | string  | invoice_type | sub-collection of types   | Dropdown
 invoice_date     | number  | -            | yyyymmdd                  | User entry
 due_date         | number  | -            | yyyymmdd                  | User entry
-contact          | string  | contacts     | -                         | Dropdown
+contacts         | JSON array  | contacts     | -                         | Dropdown
 description      | string  | -            | -                         | User entry
 amount           | number  | -            | -                         | User entry
 amount_paid      | number  | -            | -                         | User entry
@@ -19,3 +19,7 @@ accrued_from     | number  | -            | yyyymmdd                  | User ent
 accrued_to       | number  | -            | yyyymmdd                  | User entry
 unit             | string  | units        | get project units element | Dropdown
 account          | string  | coa/accounts | -                         | Dropdown
+
+
+Prepare invoice_types under types collection  
+Update definition for invoice items  
