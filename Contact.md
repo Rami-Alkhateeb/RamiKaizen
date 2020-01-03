@@ -22,8 +22,7 @@ Contact entity corresponds to “contact” table in the database which has the 
 | signature| Text| -| -| Our agents have signatures which are used in the property portal ads.| User entry| Yes| No
 | emirates_id| Text| -| -| -| User entry| Yes| No
 | passport_number| Text| -| -| -| User entry| Yes| No
-| trade_license_id| Text| -| -| -
-| User entry| No| Yes
+| trade_license_id| Text| -| -| -| User entry| No| Yes
 | mollak_id| Text| -| -| -| User entry| Yes| Yes
 | emails| JSON| -| -| Refer to below description| User entry| Yes| Yes
 | phones| JSON| -| -| Refer to below description| User entry| Yes| Yes
