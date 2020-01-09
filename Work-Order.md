@@ -24,7 +24,7 @@ Work Order entity corresponds to work_orders collection in the database which ha
     "location": <Please refer to below description>,
     "unit": <unit uuid>,
     "key_access": <Please refer to below description>,
-    "availablity": {
+    "availability": {
         "sunday": {"9to13": boolean, "13to18": boolean, "18to22": boolean},
         "monday": {"9to13": boolean, "13to18": boolean, "18to22": boolean},
         "tuesday": {"9to13": boolean, "13to18": boolean, "18to22": boolean},
