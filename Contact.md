@@ -52,8 +52,8 @@ Phones JSON Definition:
         country_code: Int, 
         number: Int, 
         extension: Int, 
-        is_default: Boolean, 
-        is_whatsapp: Boolean
+        isDefault: Boolean, 
+        isWhatsapp: Boolean
     }, 
     ...
 ]
@@ -70,8 +70,8 @@ Addresses JSON Definition:
         state: Text, 
         country: Text, 
         pobox: Text, 
-        is_billing: Boolean, 
-        is_delivery: Boolean
+        isBilling: Boolean, 
+        isDelivery: Boolean
     }, 
     ...
 ]
