@@ -17,7 +17,10 @@ building|Int|FK|Building|Building the unit belongs to|Searchable dropdown
 cost_center|Int|FK|Cost Center|Cost Center the unit is assigned to|Searchable dropdown
 portfolio|Int|FK|Portfolio|Portfolio the unit belongs to|Searchable dropdown
 plot|Text|-|-|Name of the plot from title deed|User entry
-area|Float|-|-|Build up Area of the Unit|User entry
+entitlement|Float|-|-|Build up Area of the Unit|User entry
+entitlement_int|Float|-|-|Build up Area of the Unit|User entry
+entitlement_gen|Float|-|-|Build up Area of the Unit|User entry
+entitlement_int_spec|Float|-|-|Build up Area of the Unit|User entry
 floor|Int|-|-|In which floor the Unit in the building|User entry
 parkings|Calc|-|-|Number of parking spaces|Automatically calculated
 bedrooms|Int|-|-|Number of bedrooms|User entry
