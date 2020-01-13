@@ -49,9 +49,7 @@ Phones JSON Definition:
 ```
 [
     {
-        country_code: Int, 
-        number: Int, 
-        extension: Int, 
+        number: Text, 
         isDefault: Boolean, 
         isWhatsapp: Boolean
     }, 
@@ -64,12 +62,7 @@ Addresses JSON Definition:
 ```
 [
     {
-        address1: Text, 
-        address2: Text, 
-        city: Text, 
-        state: Text, 
-        country: Text, 
-        pobox: Text, 
+        address: Text, 
         isBilling: Boolean, 
         isDelivery: Boolean
     }, 
