@@ -21,6 +21,25 @@ overdue_percentage|Float|-|-|Overdue charge percentage|User entry
 lineitems|JSON Object|-|-|Stores the line items entered by the users|User entry
 mollak_id|Text|-|-|-|User entry
 
+```
+{
+  id: uuid(),
+  project: string (project ID),
+  start: date,
+  end: date,
+  previous: string (ID of the previous budget, which is selected during the budget creation),
+  status: string (dropdown from the budget_status type),
+  type: string (dropdown from the budget_type type),
+  grace: int (Grade period in number of days),
+  overdue_percentage: float,
+  versions: {
+    name: string,
+    lineitems: JSON Object (stores the line items entered by the users),
+  },
+  mollakid: string
+}
+```
+
 # Processes
 
 ## List
