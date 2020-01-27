@@ -4,23 +4,7 @@ Each project’s owner association performs a budget study annually. This budget
 
 # Properties
 
-Budget entity corresponds to “budget” table in the database which has the following fields:
-
-| Property  | Type   | Reference | Reference To | Description | Method
-| ------    | ------ | ------    | ------       | ------      | ------
-id|Int|PK|-|Unique Identifier|Auto generated
-project|Int|FK|Project|Assigned project of the budget|Auto assignment
-name|Text|-|-|Name of the Version of the budget|Auto assignment
-start|Date|-|-|Start date of the budget|Date Picker
-end|Date|-|-|End date of the budget|Date Picker
-previous|Int|FK|Budget|Previous budget to base budget|Searchable Dropdown
-status|Text|FK|Budget Status|-|Dropdown
-type|Text|FK|Budget Type|-|Dropdown
-grace|Int|-|-|Grace period in number of days|User entry
-overdue_percentage|Float|-|-|Overdue charge percentage|User entry
-lineitems|JSON Object|-|-|Stores the line items entered by the users|User entry
-mollak_id|Text|-|-|-|User entry
-
+Budget entity corresponds to “budget” collection in the database which has the following fields:
 ```
 {
   id: uuid(),
