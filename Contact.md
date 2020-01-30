@@ -10,7 +10,7 @@ Contact entity corresponds to “contact” table in the database which has the 
 | ------    | ------ | ------    | ------       | ------      | ------ | ------     | ------
 | id | Int | PK | - | Unique Identifier | Auto generated | Yes | Yes
 | user| Int| FK| -| Assigned User of the Contact| User entry| Yes| Yes
-| contact_type| Text| FK| Contact Type| -| Dropdown| Yes| Yes
+| type| Text| FK| Contact Type| -| Dropdown| Yes| Yes
 | name| Text| -| -| Name of the Contact| User entry| Yes| Yes
 | middle_name| Text| -| -| Middle name of the Contact| User entry| Yes| No
 | surname| Text| -| -| Surname of the Contact| User entry| Yes| No
