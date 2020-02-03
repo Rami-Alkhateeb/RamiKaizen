@@ -4,7 +4,7 @@ Bank Account entity is used to capture all the bank accounts we interact in real
 
 # Properties
 
-Bank Account entity corresponds to “bank_account” table in the database which has the following fields:
+Bank Account entity corresponds to “bank_accounts” collection in the database which has the following fields:
 
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
