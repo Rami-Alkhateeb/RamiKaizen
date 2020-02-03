@@ -12,14 +12,14 @@ id|Int|PK|-|Unique Identifier|Auto generated
 bank_name|Text|-|-|Name of the bank|User entry
 branch|Text|-|-|Branch of the bank|User entry
 swift_code|Text|-|-|Swift Code of the bank|User entry
-account_name|Text|-|-|Name of the bank account|User entry
-account_number|Text|-|-|Account Number|User entry
-iban_number|Text|-|-|IBAN|User entry
-bank_account_type|Text|FK|Bank Account Type|Type of the bank account|Dropdown
-is_current|Bool|-|-|-|Checkbox
-bank_account_contact|Int|FK|Contact|-|Searchable Dropdown
-bank_account_project|Int|FK|Project|-|Searchable Dropdown
-bank_account_landlord|Int|FK|Landlord|-|Searchable Dropdown
+name|Text|-|-|Name of the bank account|User entry
+number|Text|-|-|Account Number|User entry
+iban|Text|-|-|IBAN|User entry
+type|Text|FK|Bank Account Type|Type of the bank account|Dropdown
+isCurrent|Bool|-|-|-|Checkbox
+contact|Int|FK|Contact|-|Searchable Dropdown
+project|Int|FK|Project|-|Searchable Dropdown
+landlord|Int|FK|Landlord|-|Searchable Dropdown
 currency|Text|-|-|-|Searchable Dropdown
 
 # Processes
