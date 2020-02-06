@@ -21,6 +21,7 @@ contact|Int|FK|Contact|-|Searchable Dropdown
 project|Int|FK|Project|-|Searchable Dropdown
 landlord|Int|FK|Landlord|-|Searchable Dropdown
 currency|Text|-|-|-|Searchable Dropdown
+reference|Text|-|-|-|Auto assigned according to the url
 
 # Processes
 
