@@ -11,7 +11,7 @@ Bank Account entity corresponds to “bank_accounts” collection in the databas
 id|Int|PK|-|Unique Identifier|Auto generated
 bank|Text|-|-|Name of the bank|User entry
 branch|Text|-|-|Branch of the bank|User entry
-swift_code|Text|-|-|Swift Code of the bank|User entry
+swift|Text|-|-|Swift Code of the bank|User entry
 name|Text|-|-|Name of the bank account|User entry
 number|Text|-|-|Account Number|User entry
 iban|Text|-|-|IBAN|User entry
