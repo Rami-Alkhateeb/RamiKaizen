@@ -17,9 +17,6 @@ number|Text|-|-|Account Number|User entry
 iban|Text|-|-|IBAN|User entry
 type|Text|FK|Bank Account Type|Type of the bank account|Dropdown
 isCurrent|Bool|-|-|-|Checkbox
-contact|Int|FK|Contact|-|Searchable Dropdown
-project|Int|FK|Project|-|Searchable Dropdown
-landlord|Int|FK|Landlord|-|Searchable Dropdown
 currency|Text|-|-|-|Searchable Dropdown
 reference|Text|-|-|-|Auto assigned according to the url
 
