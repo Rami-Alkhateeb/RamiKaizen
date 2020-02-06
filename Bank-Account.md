@@ -9,7 +9,7 @@ Bank Account entity corresponds to “bank_accounts” collection in the databas
 | Property  | Type   | Reference | Reference To | Description | Method
 | ------    | ------ | ------    | ------       | ------      | ------
 id|Int|PK|-|Unique Identifier|Auto generated
-bank_name|Text|-|-|Name of the bank|User entry
+bank|Text|-|-|Name of the bank|User entry
 branch|Text|-|-|Branch of the bank|User entry
 swift_code|Text|-|-|Swift Code of the bank|User entry
 name|Text|-|-|Name of the bank account|User entry
